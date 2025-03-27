@@ -1,0 +1,34 @@
+{
+  "name": "aca-lab2",
+  "version": "1.0.0",
+  "description": "Laboratorio 2 de Aplicaciones de codigo abierto",
+  "main": "index.js",
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/AlessandroRivera/ACA-LAB2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlessandroRivera/ACA-LAB2/issues"
+  },
+  "homepage": "https://github.com/AlessandroRivera/ACA-LAB2#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-emoji-conventional": "^1.2.1",
+    "husky": "^9.1.7"
+  },
+  "scripts": {
+    "prepare": "husky"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog",
+      "useGitmojis": true
+    }
+  }
+}
